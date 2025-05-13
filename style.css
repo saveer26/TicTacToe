@@ -1,0 +1,48 @@
+/* 
+#TicTacToe button {
+width: 150px;
+height: 150px;
+background-color: #f7fdfe ;
+font-size: 50px ;
+}
+#TicTacToe {
+  display: flex ;
+  justify-content: center ;
+  flex-direction: column ;
+}
+table {
+  width: 50px ;
+  height: 50px ;
+  margin: 70px ;
+  border-collapse: collapse ;
+}
+#resetButton {
+  height: 30px;
+  width: 50px;
+  color: #b31019;
+} */
+ 
+#TicTacToe table button {
+width: 150px;
+height: 150px;
+background-color: #f7fdfe ;
+font-size: 50px ;
+}
+#TicTacToe {
+  display: flex ;
+  justify-content: center ;
+  align-items: center;
+  flex-direction: column ;
+}
+table {
+  width: 50px ;
+  height: 50px ;
+  margin: 70px ;
+  border-collapse: collapse ;
+}
+#resetButton {
+  display:flex;
+  height: 30px;
+  width: 50px;
+  color: #b31019;
+} 

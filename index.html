@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <div id="TicTacToe">
+    <h1>TIC, TAC, AND TOE</h1>
+    <h4>By the amazing Saveer</h4>
+    <h2 id="x-turn"> It is X's turn </h2>
+    <table>
+      <tr>
+        <td style="border-right: 1px solid blue; border-bottom: 1px solid blue;"> <button id="thing1" onclick="play('thing1')"> </button> </td>
+        <td style="border-right: 1px solid blue; border-bottom: 1px solid blue;"> <button id="thing2" onclick="play('thing2')"> </button> </td>
+        <td style="border-bottom: 1px solid blue;"> <button id="thing3" onclick="play('thing3')"> </button> </td>
+      </tr>
+      <tr>
+        <td style="border-right: 1px solid blue; border-bottom: 1px solid blue;"> <button id="thing4" onclick="play('thing4')"> </button> </td>
+        <td style="border-right: 1px solid blue; border-bottom: 1px solid blue; border-left: 1px solid blue;"> <button id="thing5" onclick="play('thing5')"></button> </td>
+        <td style="border-bottom: 1px solid blue;"> <button id="thing6" onclick="play('thing6')"> </button> </td>
+      </tr>
+      <tr>
+        <td> <button onclick="play('thing7')" id="thing7"></button> </td>
+        <td style="border-right: 1px solid blue; border-left: 1px solid blue;"> <button id="thing8" onclick="play('thing8')"> </button> </td>
+        <td> <button id="thing9" onclick="play('thing9')"></button> </td>
+      </tr>
+    </table>
+    <button id = "resetButton" onclick="reset()"> Reset </button>
+  </div>
+</body>
+
+</html>
